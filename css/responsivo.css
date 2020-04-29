@@ -1,0 +1,150 @@
+/* Estilos para tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+/* Qualidade Home */
+.qualidade:after{
+    right: 66px;
+}
+
+.qualidade-lista li{
+    padding: 0 10px;
+}
+
+/* Footer */
+.footer-redes ul li a{
+    padding: 6px;
+}
+
+.footer-redes ul li a img{
+    width: 26px;
+    height: 26px;
+}
+
+
+/* Produtos */
+.produtos-item h2{
+    top: -150px;
+}
+
+.produto-icone{
+    padding: 41px 0;
+}
+
+.produto-info p{
+    font-size: 16px;
+    height: 122px;
+    line-height: 20px;
+    padding: 20px 40px;
+}
+
+.produto-info ul li{
+    width: 181px;
+    height: 49px;
+}
+}
+
+/* Estilos para smartphone */
+@media only screen and (max-width: 787px){
+
+/* Header */
+.header-menu ul li a.menu-ativo{
+    border-color: #ffffff;
+}
+
+.header{
+    position: relative;
+    padding-bottom: 0;
+}
+
+.header img{
+    margin: 0 auto
+}
+
+.header-menu{
+    text-align: center;
+}
+
+.header-menu ul li{
+    margin: 5px;
+}
+
+.header-menu ul li a {
+    border: 4px solid #000;
+    width: 136px;
+    display: block;
+    float: left;
+}
+
+.header-menu ul li a:hover{
+    border-color: #ffffff
+}
+
+/* Introdução */
+.introducao h1{
+    font-size: 36px;
+}
+
+.introducao {
+    margin-top: 0px;
+    padding-top: 40px;
+    background: url("../img/bg-mobile.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Botões */
+.call{
+    padding-top: 10px;
+}
+
+.qualidade:after{
+    display: none;
+}
+
+/* Introdução interna */
+.introducao-interna{
+    margin-top: 0px;
+}
+
+/* Sobre */
+.missao-sobre p{
+    padding-right: 0px;
+}
+
+/* Produtos */
+.produtos-item h2{
+    top: -100px;
+    margin-bottom: -68px;
+}
+
+.produto-icone{
+    padding: 41px 0;
+}
+
+.produto-info p{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 40px;
+    height: auto;
+}
+
+.produto-info ul li{
+    width: 149px;
+    height: 49px;
+    font-size: 15px;
+}
+
+.form{
+    padding-right: 0px;
+}
+
+.orcamento-dados ul{
+    padding-right: 0px;
+}
+
+.contato-form{
+    padding-right: 0px;
+    margin-bottom: 20px;
+
+}
+
+}

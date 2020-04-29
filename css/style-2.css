@@ -1,0 +1,432 @@
+/* Estilos gerais */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.btn{
+    border: 3px solid #fec63e;
+    color:#fec63e;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn.btn-preto:hover{
+    color: #000;
+    border-color: #000;
+}
+
+.subtitulo{
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: .1em;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitulo:after{
+    background-color: #000;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 8px auto;
+    width: 60px;
+}
+
+
+/* Header */
+.header{
+    background: #fec63e;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-menu{
+    margin-top: 20px;
+    text-align: right;
+}
+
+.header-menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header-menu ul li a{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.header-menu ul li a:hover{
+    color: #ffffff;
+}
+
+.header-menu ul li a.menu-ativo{
+    color: #ffffff;
+}
+
+/* Introdução */ 
+
+.introducao{
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+    height: 380px;
+    margin-top: 92px;
+    padding-top: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+.introducao h1{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quote-externo{
+    color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 320px;
+}
+
+.quote-externo p{
+    font-style: italic;
+}
+
+.quote-externo p:before, .quote-externo p:after{
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 14px auto 10px auto;
+    width: 60px;
+}
+
+.quote-externo cite{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+/* Introdução Interna  */
+
+.introducao-interna{
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.introducao-interna h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffffff;
+    margin: 6px auto 10px auto;
+}
+
+/* Produtos */
+.produtos{
+    padding: 60px 0;
+}
+
+.produtos_lista li{
+    background: #fec63e;
+    text-align: center;
+}
+
+.produtos_lista li img {
+    margin: 0 auto;
+}
+
+.produtos_lista h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.produtos_lista li h3:after{
+    background-color: #000000;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 2px auto;
+    width: 60px;
+}
+
+.produtos_lista li p{
+    padding: 10px 20px 20px 20px;
+}
+
+.produtos-icone{
+    background: #000000;
+    padding: 20px;
+}
+
+.call{
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+
+.call p{
+    margin-bottom: 20px;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    width: 100%;
+    background-color: #000;
+    padding: 40px 0;
+}
+
+.portfolio .subtitulo{
+    color: #fec63e
+}
+
+.portfolio .subtitulo:after{
+    background: #fec63e;
+}
+
+.portfolio_lista li:last-child{
+    margin-top: 20px;
+}
+
+.portfolio .call p{
+    color: #ffffff
+}
+
+/* Qualidade */
+
+.qualidade{
+    padding: 60px 0px;
+}
+
+.qualidade:after{
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 209px;
+    right: 162px;
+
+}
+
+.qualidade img{
+    margin: 0 auto;
+}
+
+.qualidade-lista{
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.qualidade-lista li{
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.qualidade-lista li h3:after{
+    background-color: #000000;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 6px auto;
+    width: 60px;
+}
+
+/* Quebra */
+.quebra{
+    width: 100%;
+    height: 220px;
+    background: url("../img/bg-footer.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quebra .quote-externo{
+    max-width: 400px;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    background: #000;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+.footer h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    letter-spacing: .1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 12px 0;
+}
+
+.footer-historia{
+    padding-right: 40px;
+}
+
+.footer-contato ul li{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer-redes ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-redes ul li a{
+    border: 3px solid #fec63e; 
+    display: block;
+    padding: 10px;
+}
+
+.footer-redes ul li a:hover{
+    border-color: #ffffff;
+}
+
+.copy{
+    width: 100%;
+    background: #fec63e;
+    padding: 20px 0;
+}
+
+/* Carousel */
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js [data-slide-nav] button{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    text-indent: -99px;
+    overflow: hidden;
+    background-color: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active{
+    background: #fec63e;
+}
+
+.js [data-anime]{
+    opacity: 0;
+    transform: translate3d(0, -20px, 0);
+}
+
+.js .fadeInDown{
+    transform: translate3d(0, -20px, 0);
+}
+
+.js .anime{
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+}
+
+.nao-aparece{
+    height: 0px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#form-sucesso{
+    color: #31aa39;
+}
+
+#form-erro{
+    color: #f64540;
+}
